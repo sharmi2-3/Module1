@@ -1,36 +1,28 @@
-# 1a.Printing multiline strings in Python using triple quotes.
+# Conditional Statements in Python: Even or Odd Checker
 
 ##  Aim
-To write a Python program that prints a multiline string using triple single quotes and triple double quotes.
-
+To write a Python program to check whether the given number is **even** or **odd** using `if...else` statements.
 
 ##  Algorithm
-1.Create a multiline string using triple single quotes (''' ... ''').
+1. Get an input from the user.
+2. Convert the input to an integer and store it in a variable `a`.
+3. Use the modulo operator `%` to check if `a % 2 == 0`.
+   - If true, print `"EVEN"`.
+   - Else, print `"ODD"`.
+4. End the program.
 
-2.Print the multiline string.
+##  Program :
 
-3.Create another multiline string using triple double quotes (""" ... """).
-
-4.Print the second multiline string.
-
-##  Program
 ```
-str1='''I am a string literal
-... has more than one
-... line
-....placed inside triple single quotes'''
-str2="""I am a string literal
-... has more than one 
-... line
-....placed inside triple double quotes"""
-print(str1)
-print(str2)
+a = int(input("Enter a number: "))
+if a % 2 == 0:
+    print("EVEN")
+else:
+    print("ODD")
 ```
 
-## Output
+## Output : 
+<img width="390" height="315" alt="image" src="https://github.com/user-attachments/assets/2cf4719e-5edf-4f00-9971-890b6483a300" />
 
-<img width="447" height="202" alt="image" src="https://github.com/user-attachments/assets/6e6b59e9-f096-47fd-8b19-9749db7fffef" />
-
-
-## Result
-The program successfully prints the multiline strings using both triple single quotes and triple double quotes.
+## Result :
+Thus the program executed successfully.
