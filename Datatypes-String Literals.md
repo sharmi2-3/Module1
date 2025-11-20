@@ -5,8 +5,11 @@ To write a Python program that reads a character input and prints the vowel usin
 
 ##  Algorithm
 1.Accept a character from the user.
+
 2.Check if the character is one of the vowels (A, E, I, O, U, a, e, i, o, u).
+
 3.If it is a vowel, print the same character.
+
 4.End the program.
 
 ##  Program
