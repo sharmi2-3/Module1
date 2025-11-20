@@ -1,33 +1,21 @@
-# 1e.Datatypes-Printing vowels in Python using character literals.
+# Datatypes-Read and Print a String in Python
 
 ##  Aim
-To write a Python program that reads a character input and prints the vowel using a character literal.
+To write a Python program to read a string from the user and then print it.
 
 ##  Algorithm
-1.Accept a character from the user.
+1. Assign a variable named `men_stepped_on_the_moon`.
+2. Use `input()` to read a string from the user and store it in the variable.
+3. Print the value stored in the variable.
 
-2.Check if the character is one of the vowels (A, E, I, O, U, a, e, i, o, u).
-
-3.If it is a vowel, print the same character.
-
-4.End the program.
-
-##  Program
+## Program
 ```
-a=input()
-b=input()
-a=a.upper()
-b=b.upper()
-if a in 'AEIOU':
-    print(a)
-if b in 'AEIOU':
-    print(b)
-```
+men_stepped_on_the_moon=input()
+print(men_stepped_on_the_moon)
 
+```
 ## Output
-
-<img width="439" height="112" alt="image" src="https://github.com/user-attachments/assets/4b6e751d-a0e9-4a75-9bfe-def92dc87cb0" />
-
+<img width="1057" height="231" alt="image" src="https://github.com/user-attachments/assets/b98270b1-30bd-44ca-b165-f5c2cd930580" />
 
 ## Result
-The program successfully accepts a character from the user, checks whether it is a vowel, and prints the vowel as required.
+Therefore To write a Python program to read a string from the user and then print it is compiled and the output is verified successfully
