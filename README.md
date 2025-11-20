@@ -3,45 +3,40 @@
 ## NAME : SHARMILA P
 ## REGISTER NUMBER : 212224220094
 
-
-# 1a.Printing multiline strings in Python using triple quotes.
+# Conditional Statements in Python: Even or Odd Checker
 
 ##  Aim
-To write a Python program that prints a multiline string using triple single quotes and triple double quotes.
-
+To write a Python program to check whether the given number is **even** or **odd** using `if...else` statements.
 
 ##  Algorithm
-1.Create a multiline string using triple single quotes (''' ... ''').
+1. Get an input from the user.
+2. Convert the input to an integer and store it in a variable `a`.
+3. Use the modulo operator `%` to check if `a % 2 == 0`.
+   - If true, print `"EVEN"`.
+   - Else, print `"ODD"`.
+4. End the program.
 
-2.Print the multiline string.
+##  Program :
 
-3.Create another multiline string using triple double quotes (""" ... """).
-
-4.Print the second multiline string.
-
-##  Program
 ```
-str1='''I am a string literal
-... has more than one
-... line
-....placed inside triple single quotes'''
-str2="""I am a string literal
-... has more than one 
-... line
-....placed inside triple double quotes"""
-print(str1)
-print(str2)
+a = int(input("Enter a number: "))
+if a % 2 == 0:
+    print("EVEN")
+else:
+    print("ODD")
 ```
 
-## Output
+## Output : 
+<img width="390" height="315" alt="image" src="https://github.com/user-attachments/assets/2cf4719e-5edf-4f00-9971-890b6483a300" />
 
-<img width="447" height="202" alt="image" src="https://github.com/user-attachments/assets/6e6b59e9-f096-47fd-8b19-9749db7fffef" />
-
-## Result
-The program successfully prints the multiline strings using both triple single quotes and triple double quotes.
+## Result :
+Thus the program executed successfully.
 
 
-# 1b.Datatypes-Boolean Expression Evaluation in Python
+
+
+
+# Datatypes-Boolean Expression Evaluation in Python
 
 ##  Aim
 To write a Python program that evaluates and prints the results of boolean and arithmetic expressions involving `True` and `False`.
@@ -86,7 +81,7 @@ The program correctly evaluates the boolean and arithmetic expressions using Tru
 
 
 
-# 1c. Datatypes-Character Literal in Python
+#  Datatypes-Character Literal in Python
 
 ##  Aim
 To write a Python program that prints the characters `'v'` and `'c'` using character literals.
@@ -113,7 +108,7 @@ print(str2)
 The python program successfully prints the characters 'v' and 'c' using character literals
 
 
-# 1d. Datatypes-Complex Number Creation in Python
+#  Datatypes-Complex Number Creation in Python
 
 ##  Aim
 To write a Python program that reads two integers, creates a complex number using them, and then prints the complex number along with its real and imaginary parts.
@@ -142,39 +137,27 @@ print(sum)
 The program successfully adds the two complex numbers c1 and c2 and prints their
 
 
-
-# 1e.Datatypes-Printing vowels in Python using character literals.
+# Datatypes-Read and Print a String in Python
 
 ##  Aim
-To write a Python program that reads a character input and prints the vowel using a character literal.
+To write a Python program to read a string from the user and then print it.
 
 ##  Algorithm
-1.Accept a character from the user.
+1. Assign a variable named `men_stepped_on_the_moon`.
+2. Use `input()` to read a string from the user and store it in the variable.
+3. Print the value stored in the variable.
 
-2.Check if the character is one of the vowels (A, E, I, O, U, a, e, i, o, u).
-
-3.If it is a vowel, print the same character.
-
-4.End the program.
-
-##  Program
+## Program
 ```
-a=input()
-b=input()
-a=a.upper()
-b=b.upper()
-if a in 'AEIOU':
-    print(a)
-if b in 'AEIOU':
-    print(b)
-```
+men_stepped_on_the_moon=input()
+print(men_stepped_on_the_moon)
 
+```
 ## Output
-
-<img width="439" height="112" alt="image" src="https://github.com/user-attachments/assets/4b6e751d-a0e9-4a75-9bfe-def92dc87cb0" />
-
+<img width="1057" height="231" alt="image" src="https://github.com/user-attachments/assets/b98270b1-30bd-44ca-b165-f5c2cd930580" />
 
 ## Result
-The program successfully accepts a character from the user, checks whether it is a vowel, and prints the vowel as required.
+Therefore To write a Python program to read a string from the user and then print it is compiled and the output is verified successfully
+
 
 
