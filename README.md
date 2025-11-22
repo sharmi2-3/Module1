@@ -3,7 +3,7 @@
 ## NAME : SHARMILA P
 ## REGISTER NUMBER : 212224220094
 
-# Conditional Statements in Python: Even or Odd Checker
+# 1A.Conditional Statements in Python: Even or Odd Checker
 
 ##  Aim
 To write a Python program to check whether the given number is **even** or **odd** using `if...else` statements.
@@ -36,7 +36,7 @@ Thus the program executed successfully.
 
 
 
-# Datatypes-Boolean Expression Evaluation in Python
+# 1B. Datatypes-Boolean Expression Evaluation in Python
 
 ##  Aim
 To write a Python program that evaluates and prints the results of boolean and arithmetic expressions involving `True` and `False`.
@@ -81,7 +81,7 @@ The program correctly evaluates the boolean and arithmetic expressions using Tru
 
 
 
-#  Datatypes-Character Literal in Python
+# 1C. Datatypes-Character Literal in Python
 
 ##  Aim
 To write a Python program that prints the characters `'v'` and `'c'` using character literals.
@@ -108,7 +108,7 @@ print(str2)
 The python program successfully prints the characters 'v' and 'c' using character literals
 
 
-#  Datatypes-Complex Number Creation in Python
+# 1D. Datatypes-Complex Number Creation in Python
 
 ##  Aim
 To write a Python program that reads two integers, creates a complex number using them, and then prints the complex number along with its real and imaginary parts.
@@ -137,7 +137,7 @@ print(sum)
 The program successfully adds the two complex numbers c1 and c2 and prints their
 
 
-# Datatypes-Read and Print a String in Python
+# 1E. Datatypes-Read and Print a String in Python
 
 ##  Aim
 To write a Python program to read a string from the user and then print it.
